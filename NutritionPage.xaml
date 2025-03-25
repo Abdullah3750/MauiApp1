@@ -1,0 +1,15 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.NutritionPage"
+             Title="Nutrition">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Label Text="🥗 Nutrition"
+               FontSize="28"
+               HorizontalOptions="Center" />
+        
+        <Label Text="Track meals and learn about healthy eating!"
+               FontSize="18"
+               HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>

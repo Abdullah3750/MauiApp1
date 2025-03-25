@@ -1,0 +1,15 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.ProgressPage"
+             Title="Progress Tracker">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Label Text="📊 Progress Tracker"
+               FontSize="28"
+               HorizontalOptions="Center" />
+        
+        <Label Text="Monitor your progress and stay motivated!"
+               FontSize="18"
+               HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>

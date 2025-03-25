@@ -36,6 +36,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
+[C:/Users/Zainab/RiderProjects/MauiApp1/MauiApp1/NutritionPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.NutritionPage.xaml
+build_metadata.AdditionalFiles.TargetPath = NutritionPage.xaml
+build_metadata.AdditionalFiles.RelativePath = NutritionPage.xaml
+
+[C:/Users/Zainab/RiderProjects/MauiApp1/MauiApp1/ProgressPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.ProgressPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ProgressPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ProgressPage.xaml
+
 [C:/Users/Zainab/RiderProjects/MauiApp1/MauiApp1/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Resources.Styles.Colors.xaml
@@ -47,3 +59,15 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Zainab/RiderProjects/MauiApp1/MauiApp1/SettingsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.SettingsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = SettingsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = SettingsPage.xaml
+
+[C:/Users/Zainab/RiderProjects/MauiApp1/MauiApp1/WorkoutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.WorkoutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = WorkoutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = WorkoutPage.xaml

@@ -2,23 +2,28 @@
 
 public partial class MainPage : ContentPage
 {
-	int count = 0;
+    public MainPage()
+    {
+        InitializeComponent();
+    }
 
-	public MainPage()
-	{
-		InitializeComponent();
-	}
+    private async void OnWorkoutClicked(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync(nameof(WorkoutPage));
+    }
 
-	private void OnCounterClicked(object sender, EventArgs e)
-	{
-		count++;
+    private async void OnNutritionClicked(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync(nameof(NutritionPage));
+    }
 
-		if (count == 1)
-			CounterBtn.Text = $"Clicked {count} time";
-		else
-			CounterBtn.Text = $"Clicked {count} times";
+    private async void OnProgressClicked(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync(nameof(ProgressPage));
+    }
 
-		SemanticScreenReader.Announce(CounterBtn.Text);
-	}
+    private async void OnSettingsClicked(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync(nameof(SettingsPage));
+    }
 }
-
